@@ -1,0 +1,234 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "My API",
+    "description": "Temple API",
+    "version": "1.0.0"
+  },
+  "host": "cse341-spring23-j0zc.onrender.com",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/airbnb/": {
+      "get": {
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "listing_url": {
+                  "example": "any"
+                },
+                "description": {
+                  "example": "any"
+                },
+                "transit": {
+                  "example": "any"
+                },
+                "interaction": {
+                  "example": "any"
+                },
+                "house_rules": {
+                  "example": "any"
+                },
+                "property_type": {
+                  "example": "any"
+                },
+                "room_type": {
+                  "example": "any"
+                },
+                "bed_type": {
+                  "example": "any"
+                },
+                "minimum_nights": {
+                  "example": "any"
+                },
+                "maximum_nights": {
+                  "example": "any"
+                },
+                "cancellation_policy": {
+                  "example": "any"
+                },
+                "price": {
+                  "example": "any"
+                },
+                "weekly_price": {
+                  "example": "any"
+                },
+                "monthly_price": {
+                  "example": "any"
+                },
+                "cleaning_fee": {
+                  "example": "any"
+                },
+                "extra_people": {
+                  "example": "any"
+                },
+                "guests_included": {
+                  "example": "any"
+                },
+                "images": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/airbnb/{id}": {
+      "get": {
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "listing_url": {
+                  "example": "any"
+                },
+                "description": {
+                  "example": "any"
+                },
+                "transit": {
+                  "example": "any"
+                },
+                "interaction": {
+                  "example": "any"
+                },
+                "house_rules": {
+                  "example": "any"
+                },
+                "property_type": {
+                  "example": "any"
+                },
+                "room_type": {
+                  "example": "any"
+                },
+                "bed_type": {
+                  "example": "any"
+                },
+                "minimum_nights": {
+                  "example": "any"
+                },
+                "maximum_nights": {
+                  "example": "any"
+                },
+                "cancellation_policy": {
+                  "example": "any"
+                },
+                "price": {
+                  "example": "any"
+                },
+                "weekly_price": {
+                  "example": "any"
+                },
+                "monthly_price": {
+                  "example": "any"
+                },
+                "cleaning_fee": {
+                  "example": "any"
+                },
+                "extra_people": {
+                  "example": "any"
+                },
+                "guests_included": {
+                  "example": "any"
+                },
+                "images": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "delete": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    }
+  }
+}

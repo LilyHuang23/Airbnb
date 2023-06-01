@@ -1,0 +1,41 @@
+// LOCALHOST
+###
+GET http://localhost:8080/
+###
+GET http://localhost:8080/
+###
+GET http://localhost:8080/
+###
+GET http://localhost:8080/
+### Create contact POST http://localhost:8080/
+HTTP/1.1 content-type: application/json
+
+{
+"listing_url":"",
+"name":"",
+"description":"",
+"transit":"",
+"interaction":"",
+"house_rules":"",
+"property_type":"Apartment",
+"room_type":"Private room",
+"bed_type":"RealBed",
+"minimum_nights":"12",
+"maximum_nights":"360",
+"cancellation_policy":"strict_14_with_grace_period",
+"price":{"$numberDecimal":"135.00"},
+"weekly_price":"",
+"monthly_price":"",
+"cleaning_fee":{"$numberDecimal":"135.00"},
+"extra_people":{"$numberDecimal":"0.00"},
+"guests_included":{"$numberDecimal":"1"},
+"images":{"thumbnail_url":"","medium_url":"","picture_url":""}}
+
+
+
+
+### Update contact PUT http://localhost:8080/
+
+### DELETE contact DELETE http://localhost:8080/contacts/644ffb6f2f2f34af0cd21852 HTTP/1.1
+
+
