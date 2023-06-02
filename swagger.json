@@ -5,7 +5,7 @@
     "description": "Airbnb API",
     "version": "1.0.0"
   },
-  "host": "airbnb-56z7.onrender.com",
+  "host": "airbnb-x1zu.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
