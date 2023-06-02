@@ -2,10 +2,10 @@
   "swagger": "2.0",
   "info": {
     "title": "My API",
-    "description": "Temple API",
+    "description": "Airbnb API",
     "version": "1.0.0"
   },
-  "host": "cse341-spring23-j0zc.onrender.com",
+  "host": "airbnb-56z7.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"

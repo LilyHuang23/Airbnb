@@ -7,7 +7,7 @@ const doc = {
   },
   host: 'localhost:8080',
   schemes: ['http'],
-  // host: 'cse341-spring23-j0zc.onrender.com',
+  // host: 'airbnb-56z7.onrender.com',
   // schemes: ['https'],
 };
 
