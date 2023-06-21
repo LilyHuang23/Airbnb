@@ -5,10 +5,10 @@
     "description": "Airbnb API",
     "version": "1.0.0"
   },
-  "host": "airbnb-x1zu.onrender.com",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
     "/api-docs": {
@@ -41,6 +41,9 @@
               "type": "object",
               "properties": {
                 "listing_url": {
+                  "example": "any"
+                },
+                "name": {
                   "example": "any"
                 },
                 "description": {
